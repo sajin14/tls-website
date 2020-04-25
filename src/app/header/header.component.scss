@@ -1,6 +1,39 @@
-.header {
-    background-color: black;
-    height: 50px;
-    width: 100%;
+.contact-header {
+    background-color: #282b3d;
     color: white;
+    font-weight: bold;
+    min-height: 20px;
+    opacity: 1;
+}
+
+.header {
+    background-color: white;
+    height: 90px;
+    width: 100%;
+    color: blue;
+    border-bottom: 1px solid #107b9e;
+    .logo {
+        height: 85px;
+    }
+    .logo-text {
+        font-size: 17px;
+        color: #107b9e;
+        padding-top: 30px;
+        margin-left: -12px;
+        font-weight: bold;
+    }
+}
+
+.quote-button {
+    padding-bottom: 10px;
+    padding-right: 10px;
+    button {
+        background-color: orange;
+        color: white;
+        min-width: 200px;
+    }
+}
+
+.nav-bar {
+    padding-bottom: 10px;
 }

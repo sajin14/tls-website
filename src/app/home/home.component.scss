@@ -1,0 +1,39 @@
+.starter-container {
+    padding: 0 10%;
+    padding-top: 60px;
+    color: white;
+    text-align: center;
+    .header {
+        font-weight: 400;
+        font-size: 28px;
+        text-align: center;
+    }
+    .tile-1 {
+        width: 500px;
+    }
+    .question {
+        padding-top: 80px;
+        font-size: 40px;
+        font-weight: 400;
+        color: #ffc43f;
+    }
+    .answer {
+        font-size: 25px;
+        font-weight: 300;
+    }
+    .quote-button {
+        margin-top: 10px;
+        background-color: orange;
+        color: white;
+        max-width: 250px;
+    }
+}
+
+.offering-container {
+    text-align: center;
+    padding-top: 30px;
+    .header {
+        color: white;
+        font-size: 40px;
+    }
+}

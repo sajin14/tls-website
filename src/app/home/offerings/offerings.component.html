@@ -1,0 +1,14 @@
+<div class="offerings-container">
+    <div class="header">What We Offer</div>
+    <div fxLayout="row" fxLayoutGap="10px">
+        <div class="tile" fxFlex="33%" *ngFor="let offering of offeringList">
+            <img src="./assets/{{offering.title}}.jpg" />
+            <div class="caption ">
+                <div class="title">{{offering.title}}</div>
+                <div class="details ">
+                    <div>{{offering.description}}</div>
+                    <button mat-button>Learn More</button>
+                </div>
+            </div>
+        </div>
+    </div>
